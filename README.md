@@ -16,8 +16,11 @@ This is an example App builded with Laravel Breeze and Inertia.
  1. git clone 
  2. cd into project
  3. composer install 
- 4. php artisan migrate 
- 5. (optional) php artisan db:seed  
+ 4. cp .env.example .env
+ 5. php artisan key:generate
+ 6. create a databe named PhoneBook
+ 7. php artisan migrate 
+ 8. (optional) php artisan db:seed  
 
  - Using Sail or Docker 
  1. git clone 
